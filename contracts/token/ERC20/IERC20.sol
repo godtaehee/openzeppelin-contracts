@@ -5,10 +5,12 @@ pragma solidity ^0.8.0;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
+ * EIP에 정의된 ERC20 표준 인터페이스
  */
 interface IERC20 {
     /**
      * @dev Returns the amount of tokens in existence.
+     * 
      */
     function totalSupply() external view returns (uint256);
 
@@ -45,7 +47,7 @@ interface IERC20 {
      * transaction ordering. One possible solution to mitigate this race
      * condition is to first reduce the spender's allowance to 0 and set the
      * desired value afterwards:
-     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+     * h
      *
      * Emits an {Approval} event.
      */
